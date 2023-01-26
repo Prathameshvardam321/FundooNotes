@@ -66,20 +66,20 @@ export const getUser = async (id) => {
 //   return "Invalid User"
 // }
 
-// export const validateUser = async (body)=>{
-//   const {Email,Password} = body
-//   if(!Email || !Password){
-//     throw Error("Details Not Entered")
-//   }
-//   const data = await User.findOne({ Email })
+export const validateUser = async (body)=>{
+  const {Email,Password} = body
+  if(!Email || !Password){
+    throw Error("Details Not Entered")
+  }
+  const data = await User.findOne({ Email })
 
-//   if (data) {
-//     if(data.Password===Password){
-//       return 'Yes you have login page'
-//     }else{
-//       throw new Error('Wrong credentials')
-//     }
-//   }else{
-//     throw new Error("Details not found")
-//   }
-// }
+  if (data) {
+    if(data.Password===Password){
+      return 'Yes you have login page'
+    }else{
+      throw new Error('Wrong credentials')
+    }
+  }else{
+    throw new Error("Details not found")
+  }
+}

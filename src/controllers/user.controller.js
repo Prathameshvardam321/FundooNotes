@@ -126,16 +126,16 @@ export const deleteUser = async (req, res, next) => {
   }
 };
 
-// export const validateUser = async(req,res,next) =>{
-// try {
-//   const data = await UserService.validateUser(req.body);
-//   res.status(HttpStatus.OK).json({
-//     code: HttpStatus.OK,
-//     data: data,
-//     message: 'validating User'
-//   });
-// } catch (error) {
-//   console.log(error);
-//   next(error)
-// }
-// }
+export const validateUser = async(req,res,next) =>{
+try {
+  const data = await UserService.validateUser(req.body);
+  res.status(HttpStatus.OK).json({
+    code: HttpStatus.OK,
+    data: data,
+    message: 'validating User'
+  });
+} catch (error) {
+  console.log(error);
+  next(error)
+}
+}

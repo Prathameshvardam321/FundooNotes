@@ -13,7 +13,7 @@ router.get('', userController.getAllUsers);
 router.post('/registeration', newUserValidator, userController.newUser);
  
 //route to check login
-// router.post('/login',userController.validateUser)
+router.post('/login',userController.validateUser)
 
 
 router.post("/:Email", userController.checkUsers)
