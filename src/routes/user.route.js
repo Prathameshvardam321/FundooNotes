@@ -8,23 +8,18 @@ const router = express.Router();
 //route to get all users
 router.get('', userController.getAllUsers);
 
+//token
+router.post('/token',userController.createToken)
 
 //route to create a new user
-router.post('/registeration', newUserValidator, userController.newUser);
+router.post('/registeration', newUserValidator, userController.register);
  
 //route to check login
-router.post('/login',userController.validateUser)
+router.post('/login',userController.login)
 
 
-router.post("/:Email", userController.checkUsers)
 
-//route to get a single user by their user id
-router.get('/:_id', userAuth, userController.getUser);
 
-//route to update a single user by their user id
-router.put('/:_id', userController.updateUser);
 
-//route to delete a single user by their user id
-router.delete('/:_id', userController.deleteUser);
 
 export default router;

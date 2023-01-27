@@ -1,85 +1,64 @@
 import User from '../models/user.model';
-
+import bcrypt from 'bcrypt'
+import jwt from 'jsonwebtoken'
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
   return data;
 };
 
-//check user
-export const checkUsers = async (emailValue) => {
-  const data = await User.find({ Email: emailValue });
-  // console.log("------------->>>", data);
-  if (data) {
-   
+//create new user
+export const register = async (body) => {
+  const { FirstName, LastName, Email, Password } = body
+  const data = await User.findOne({Email})
+  console.log("Dataa-->",data);
+  if(data===null){
+  if (body.Password === body.ConfirmPassword) {
+    const hashedPassword = await bcrypt.hash(Password, 10)
+    const data = await User.create({
+      FirstName,
+      LastName,
+      Email,
+      Password: hashedPassword
+    })
     return data;
   } else {
-    throw new Error('Not found')
+    throw new Error("Password did not match")
   }
+}else{
+  throw new Error("Email already registered")
 }
 
-//create new user
-export const newUser = async (body) => {
-  const data = await User.create(body);
-  return data;
+
 };
 
-//update single user
-export const updateUser = async (_id, body) => {
-  const data = await User.findByIdAndUpdate(
-    {
-      _id
-    },
-    body,
-    {
-      new: true
-    }
-  );
-  return data;
-};
-
-//delete single user
-export const deleteUser = async (id) => {
-  await User.findByIdAndDelete(id);
-  return '';
-};
-
-//get single user
-export const getUser = async (id) => {
-  const data = await User.findById(id);
-  return data;
-};
-
-// export const validateUser = async (body) => {
-//   const { Email, Password } = body
-//   if(!Email || !Password){
-//     throw new Error("Details not Entered")
-//   }
-//   const data = await User.findOne({ Email })
-//   console.log(data);
-//   if (!data) {
-//      throw new Error("Not found")
-//   } 
-//   if(Password===data.Password){
-//     return "Valid User"
-//   }
-//   return "Invalid User"
-// }
-
-export const validateUser = async (body)=>{
-  const {Email,Password} = body
-  if(!Email || !Password){
+export const login = async (body) => {
+  const { Email, Password } = body
+  if (!Email || !Password) {
     throw Error("Details Not Entered")
   }
   const data = await User.findOne({ Email })
-
+  const result = await bcrypt.compare(Password, data.Password)
   if (data) {
-    if(data.Password===Password){
+    if (result) {
       return 'Yes you have login page'
-    }else{
+    } else {
       throw new Error('Wrong credentials')
     }
-  }else{
+  } else {
     throw new Error("Details not found")
+  }
+}
+
+//createtoken
+export const createToken = async (body) => {
+  const { _id, Email } = body
+  if(Email && _id){
+  const token =await jwt.sign({_id}, "appppppsnkakakakakayqooaiiaq" +Email)
+  console.log("-------------->>>",token);
+  const verify = await jwt.verify(token,"appppppsnkakakakakayqooaiiaq"+Email)
+  console.log(verify,"--------------><--------------");
+  }else{
+    throw Error("Enter ID and Email")
   }
 }

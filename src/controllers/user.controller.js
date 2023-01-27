@@ -20,10 +20,10 @@ export const getAllUsers = async (req, res, next) => {
     next(error);
   }
 };
-export const checkUsers = async(req, res, next) => {
+export const checkUsers = async (req, res, next) => {
   try {
     const data = await UserService.checkUsers(req.params.Email);
-    if(!data===undefined){
+    if (!data === undefined) {
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: data,
@@ -31,15 +31,15 @@ export const checkUsers = async(req, res, next) => {
       })
 
     }
-    else{
+    else {
       res.status(HttpStatus.BAD_REQUEST).json({
         code: HttpStatus.OK,
         data: data,
         message: 'You do not have any login page'
       })
     }
-   
-  }catch(e){
+
+  } catch (e) {
     console.log(e);
   }
 }
@@ -69,13 +69,13 @@ export const getUser = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
-export const newUser = async (req, res, next) => {
+export const register = async (req, res, next) => {
   try {
-    const data = await UserService.newUser(req.body);
-    if(req.body.Password===req.body.ConfirmPassword){
-      
+    const data = await UserService.register(req.body);
+    if (req.body.Password === req.body.ConfirmPassword) {
+
     }
-    else{
+    else {
       throw new Error("Password not matching")
     }
     res.status(HttpStatus.CREATED).json({
@@ -96,6 +96,7 @@ export const newUser = async (req, res, next) => {
  */
 export const updateUser = async (req, res, next) => {
   try {
+
     const data = await UserService.updateUser(req.params._id, req.body);
     res.status(HttpStatus.ACCEPTED).json({
       code: HttpStatus.ACCEPTED,
@@ -113,6 +114,7 @@ export const updateUser = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
+
 export const deleteUser = async (req, res, next) => {
   try {
     await UserService.deleteUser(req.params._id);
@@ -125,17 +127,30 @@ export const deleteUser = async (req, res, next) => {
     next(error);
   }
 };
-
-export const validateUser = async(req,res,next) =>{
-try {
-  const data = await UserService.validateUser(req.body);
-  res.status(HttpStatus.OK).json({
-    code: HttpStatus.OK,
-    data: data,
-    message: 'validating User'
-  });
-} catch (error) {
-  console.log(error);
-  next(error)
+export const login = async (req, res, next) => {
+  try {
+    const data = await UserService.validateUser(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'validating User'
+    });
+  } catch (error) {
+    console.log(error);
+    next(error)
+  }
 }
+
+export const createToken = async(req,res,next) =>{
+  try {
+    const data = await UserService.createToken(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Generated token'
+    });
+  } catch (error) {
+    console.log(error);
+    next(error)
+  }
 }

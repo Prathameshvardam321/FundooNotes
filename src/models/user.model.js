@@ -28,11 +28,5 @@ const userSchema = new Schema(
     timestamps: true
   }
 );
-// userSchema.pre('save',async function (next){
-//   if(this.isModified('Password')){
-//     this.Password = bcrypt.hash(this.Password,12)
-//     this.ConfirmPassword = bcrypt.hash(this.ConfirmPassword,12)
-//   }
-//   next()
-//   })
+
 export default model('User', userSchema);
