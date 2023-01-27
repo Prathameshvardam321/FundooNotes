@@ -1,0 +1,318 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T10:53:24.374Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T10:53:36.921Z"}
+error: 
+    status - 500 
+    message - ValidationError: "LastName" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T10:58:57.471Z"}
+error: 
+    status - 500 
+    message - ValidationError: "LastName" length must be at least 4 characters long 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:02:31.286Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:02:36.117Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:02:37.022Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:02:54.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:02:58.630Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" is required 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:03:05.145Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:03:07.352Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:03:16.628Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:03:24.802Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Email" must be a valid email 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T11:03:35.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:28:38.077Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:28:51.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:30:13.754Z"}
+error: Could not connect to the database. Invalid connection string {"name":"MongoParseError","stack":"MongoParseError: Invalid connection string\n    at parseConnectionString (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongodb\\lib\\core\\uri_parser.js:585:21)\n    at connect (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongodb\\lib\\operations\\connect.js:283:3)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongodb\\lib\\mongo_client.js:284:5\n    at maybePromise (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongodb\\lib\\utils.js:692:3)\n    at MongoClient.connect (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongodb\\lib\\mongo_client.js:280:10)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\connection.js:836:12\n    at new Promise (<anonymous>)\n    at NativeConnection.Connection.openUri (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\connection.js:832:19)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)","timestamp":"2023-01-25T11:30:13.766Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T11:34:40.430Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T11:34:49.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:10:21.220Z"}
+error: Could not connect to the database. connect ECONNREFUSED ::1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED ::1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at database (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\config\\/database.js:4:15)\n    at Object.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\/index.js:30:9)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","timestamp":"2023-01-25T12:10:51.231Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T12:12:38.137Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T12:12:38.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T14:59:38.879Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T14:59:38.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T16:33:15.767Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T16:33:15.798Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: Email_1 dup key: { Email: "Prathm12@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-25T16:34:30.538Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T16:34:30.562Z"}
+error: 
+    status - 500 
+    message - Error: Password not matching
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:55:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T16:36:57.438Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: Email_1 dup key: { Email: "Prathmqw12@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-25T16:37:38.008Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T16:37:38.014Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: Email_1 dup key: { Email: "Prathmqw121@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-25T16:38:56.389Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T16:38:56.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T16:41:11.287Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T16:41:11.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T16:49:18.514Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T16:49:18.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T16:49:46.751Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T16:49:46.777Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: Email_1 dup key: { Email: "Prathmqw121@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-25T16:49:50.563Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T16:49:50.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:00:35.118Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:00:35.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:03:09.307Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:03:09.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:05:00.795Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:05:00.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:05:07.739Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:05:07.768Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:25:58.894Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:25:58.924Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:26:09.017Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:26:09.045Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: Email_1 dup key: { Email: "Parath1213@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-25T17:26:11.134Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T17:26:11.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:28:46.507Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:28:46.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:43:43.756Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:43:43.784Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: Email_1 dup key: { Email: "Parath13@gmail.com" } 
+      url - /api/v1/users 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-25T17:44:02.913Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T17:44:02.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:45:17.297Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:45:17.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T17:45:48.427Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T17:45:48.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:04:56.413Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:04:56.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:10:40.908Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:10:40.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:11:10.896Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:11:10.920Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:12:44.433Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:12:44.463Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:18:44.978Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:18:45.011Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-25T18:19:21.027Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:20:03.830Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:20:03.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:20:10.948Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:20:10.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:22:26.258Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:22:26.285Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:22:44.578Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:22:44.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:23:35.959Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:23:35.988Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-25T18:24:18.296Z"}
+info: Connected to the database. {"timestamp":"2023-01-25T18:24:18.325Z"}

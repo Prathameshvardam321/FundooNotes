@@ -1,0 +1,1372 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T06:22:51.638Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T06:22:51.686Z"}
+error: 
+    status - 500 
+    message - Error: Password did not match
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:34:11)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.newUser (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:22:21)
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:74:36)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at newUser (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:72:21)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\validators\/user.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T06:25:11.735Z"}
+error: 
+    status - 500 
+    message - ReferenceError: FirstName is not defined
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:27:7)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T06:25:21.068Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T06:26:21.287Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T06:26:21.335Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T06:26:32.963Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T06:26:32.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T06:30:31.838Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T06:30:31.890Z"}
+error: 
+    status - 500 
+    message - Error: Details not found
+    at _callee7$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:97:11)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T06:31:04.061Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee7$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:94:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T06:31:12.817Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee7$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:94:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T06:31:37.209Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T06:34:35.743Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T06:34:35.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T06:34:45.039Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T06:34:45.074Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee7$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:94:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T06:34:53.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:19:36.661Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:19:36.688Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be at least 8 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:19:40.721Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:19:53.611Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:19:53.625Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:19:59.674Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:19:59.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:20:30.732Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:20:30.760Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:20:48.789Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:20:48.815Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:21:20.018Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:21:20.044Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:22:05.443Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:22:05.472Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:22:46.378Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:22:46.403Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:22:56.719Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:22:56.723Z"}
+error: 
+    status - 500 
+    message - ValidationError: "ConfirmPassword" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:23:35.650Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:23:41.839Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:23:41.843Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:24:02.770Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:24:02.775Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:24:31.989Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:24:31.993Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/registeration 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:24:50.051Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:24:55.614Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:24:55.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:27:22.178Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:27:22.207Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:27:26.919Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:27:26.927Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:27:45.771Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:27:45.796Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:27:53.308Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:27:53.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:30:09.246Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:30:09.273Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:30:10.667Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:30:10.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:32:51.481Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:32:51.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:33:31.089Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:33:31.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:34:06.211Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:34:06.238Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh1.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:34:25.977Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:34:26.002Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh1.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:34:32.635Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:34:32.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:38:10.178Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:38:10.206Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh1.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T10:38:15.310Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T10:38:15.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:38:26.667Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:38:26.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:39:08.121Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:39:08.147Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:41:31.897Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:41:31.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:41:56.266Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:41:56.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:42:04.373Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:42:04.400Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:43:06.576Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:43:06.603Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:43:41.622Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:43:41.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:44:10.733Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:44:10.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:46:22.421Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:46:22.453Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:49:32.292Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:49:32.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:51:50.669Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:51:50.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:52:26.982Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:52:27.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:52:32.991Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:52:33.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:54:11.941Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:54:11.972Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:58:02.297Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:58:02.329Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:58:26.199Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:58:26.224Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:58:31.358Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:58:31.389Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T10:59:48.569Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T10:59:48.601Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:00:01.736Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:00:01.762Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:00:12.055Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:00:12.061Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:00:36.142Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:00:36.148Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Password" length must be less than or equal to 12 characters long 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:00:43.974Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:01:04.831Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:01:04.835Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:01:26.289Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:01:26.292Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:01:36.331Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:01:36.358Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:35:36.674Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:35:36.708Z"}
+error: 
+    status - 500 
+    message - Error: Enter ID and Email
+    at _callee8$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:111:11)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.createToken (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:103:25)
+    at _callee8$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:146:36)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at createToken (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:144:25)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/token 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:35:41.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T11:56:32.838Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T11:56:32.874Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:57:41.497Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:57:41.523Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T11:58:06.204Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T11:58:06.208Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:08:33.453Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:08:33.489Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got Vkash2uhah2a@gmail.com
+    at model.Query.Query.findOne (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\mongoose\lib\model.js:2267:13)
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:25:27)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.register (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:23:22)
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:74:36)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at register (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:72:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\validators\/user.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:08:38.609Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got Vkhah2a@gmail.com
+    at model.Query.Query.findOne (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\mongoose\lib\model.js:2267:13)
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:25:27)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.register (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:23:22)
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:74:36)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at register (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:72:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\validators\/user.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:08:51.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:09:03.993Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:09:04.045Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to find() must be an object, got Vkhah2a@gmail.com
+    at model.Query.Query.find (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\mongoose\lib\query.js:2098:16)
+    at Function.find (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\mongoose\lib\model.js:2157:13)
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:25:27)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.register (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:23:22)
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:74:36)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at register (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:72:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at newUserValidator (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\validators\/user.validator.js:16:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:09:06.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:11:40.397Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:11:40.427Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:11:41.079Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:11:52.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:12:06.175Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:12:06.209Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:12:06.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:12:36.938Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:12:36.975Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:12:40.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:12:58.576Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:12:58.608Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:12:59.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:13:10.965Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:13:10.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:13:19.818Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:13:19.849Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:13:29.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:13:43.476Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:13:43.517Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:13:45.984Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:13:52.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:14:57.755Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:14:57.790Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:15:02.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:16:31.229Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:16:31.276Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:16:35.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:18:04.421Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:18:04.458Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: prathmesh1.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/registeration 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-27T12:18:04.989Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:400:5)
+    at ServerResponse.writeHead (node:_http_server:343:11)
+    at ServerResponse.writeHead (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:334:8)
+    at write_ (node:_http_outgoing:886:9)
+    at ServerResponse.end (node:_http_outgoing:996:5)
+    at ServerResponse.send (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:473:21) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:18:05.001Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T12:19:13.956Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T12:19:13.989Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T12:19:22.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:28:26.887Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:28:26.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:29:48.416Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:29:48.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:30:22.545Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:30:22.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:30:39.056Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:30:39.091Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:30:44.822Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:30:44.857Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:38:40.412Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:38:40.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:39:03.941Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:39:03.976Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:45:35.652Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:45:35.697Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:45:43.243Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:45:43.280Z"}
