@@ -37,21 +37,3 @@ export const login = async (body) => {
     throw new Error("Details not found")
   }
 }
-
-//createtoken
-export const createToken = async (body) => {
-  try {
-  const { _id, Email } = body
-  if (Email && _id) {
-    const token = await jwt.sign({ _id },process.env.SECRET_KEY)
-    
-    const verify = await jwt.verify(token,process.env.SECRET_KEY)
-    
-  } else {
-    throw Error("Enter ID and Email")
-  }
-}
-catch (error) {
-   console.log(error); 
-}
-}

@@ -46,10 +46,10 @@ export const login = async (req, res, next) => {
       message: 'validating User'
     });
   } catch (error) {
-    console.log(error);
     next(error)
   }
 }
+
 
 export const createToken = async(req,res,next) =>{
   try {

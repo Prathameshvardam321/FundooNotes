@@ -15,16 +15,19 @@ const userSchema = new Schema({
     UserId: {
         type: String
     },
-    Token: {
-        type: String,
-        require: true
+    Trash: {
+        type: Boolean,
+        // default: false
     },
     Archieve: {
-        type: Boolean
-    },
-    Trash: {
-        type: Boolean
+        type: Boolean,
+        default: false
     }
-})
+},
+    {
+        timestamps: true
+    }
+
+)
 
 export default model('Notes', userSchema);

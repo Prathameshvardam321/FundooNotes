@@ -2,16 +2,17 @@ import HttpStatus from 'http-status-codes';
 import jwt from 'jsonwebtoken';
 export const userAuth = async (req, res, next) => {
   try {
-    let bearerToken = req.header('Authorization');
-    console.log(bearerToken);
+    let bearerToken = req.header('authorization');
+
     if (!bearerToken)
       throw {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is required'
       };
-    bearerToken = bearerToken.split('')[1];
-    const { user } = await jwt.verify(bearerToken, process.env.SECRET_KEY);
-    console.log(user,"---------------------------user");
+    bearerToken = bearerToken.split(' ')[1];
+    const user = await jwt.verify(bearerToken, process.env.SECRET_KEY);
+    req.body.UserId = user.Email
+    // console.log("<---------------HTTP REQ-------------->",user.Email);
     next();
   } catch (error) {
     next(error);
