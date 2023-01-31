@@ -7,19 +7,11 @@ const router = express.Router();
 
 //route to get all users
 router.get('', userController.getAllUsers);
-
-//token
-router.post('/token',userController.createToken)
-
+ 
 //route to create a new user
 router.post('/registeration', newUserValidator, userController.register);
  
 //route to check login
 router.post('/login',userController.login)
-
-
-
-
-
 
 export default router;
