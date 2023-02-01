@@ -17,7 +17,7 @@ const userSchema = new Schema({
     },
     Trash: {
         type: Boolean,
-        // default: false
+        default: false
     },
     Archieve: {
         type: Boolean,

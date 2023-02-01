@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from 'bcrypt'
 import jwt from 'jsonwebtoken'
+import logger, { logStream } from '../config/logger';
 import { checkEmail } from '../utils/user.util';
 //get all users
 export const getAllUsers = async () => {
@@ -14,10 +15,10 @@ export const register = async (body) => {
     const { FirstName, LastName, Email, Password } = body
     const data = await User.findOne({ Email })
     const token = await jwt.sign({Email},process.env.SECRET_KEY)
-      console.log(token)
+      logger.info(token)
     return checkEmail(body,data)
   } catch (error) {
-    console.log(error);
+    logger.error(error);
   }
 }
 
@@ -28,7 +29,7 @@ export const login = async (body) => {
   if (data) {
     if (result) {
       const token = await jwt.sign({Email},process.env.SECRET_KEY)
-      console.log(token);
+      logger.info(token);
       return token;
     } else {
       throw new Error('Wrong credentials')

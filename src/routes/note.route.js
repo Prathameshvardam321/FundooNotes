@@ -15,7 +15,7 @@ router.delete("/:_id", userAuth, userController.deleteNote)
 
 router.put("/:_id", newNotesValidator, userAuth, userController.updateNote)
 
-router.patch("/:id/Trash", userController.noteTrash)
+router.put("/:id/Trash", userController.noteTrash)
 
 router.put("/:id/Archieve", userController.noteArchieve)
 

@@ -364,3 +364,709 @@ info: ::1 - - [27/Jan/2023:12:19:22 +0000] "POST /api/v1/users/registeration HTT
 
 info: ::1 - - [27/Jan/2023:12:19:28 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 329 "-" "PostmanRuntime/7.30.0"
 
+info: ::1 - - [27/Jan/2023:14:02:15 +0000] "POST /api/v1/users/login HTTP/1.1" 500 77 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:14:02:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 73 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:14:03:02 +0000] "POST /api/v1/users/login HTTP/1.1" 500 52 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:16:48:43 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+error: uncaughtException: bcrypt is not defined
+ReferenceError: bcrypt is not defined
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:4:51)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at checkEmail (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:1:24)
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:38:15)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) {"date":"Fri Jan 27 2023 22:18:44 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2012522.765},"process":{"argv":["node","C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\index.js"],"cwd":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303890,"external":19837164,"heapTotal":55779328,"heapUsed":50671504,"rss":96120832},"pid":23348,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: bcrypt is not defined\n    at _callee$ (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js:4:51)\n    at tryCatch (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at checkEmail (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js:1:24)\n    at _callee2$ (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\services\\/user.service.js:38:15)\n    at tryCatch (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at processTicksAndRejections (node:internal/process/task_queues:95:5)","trace":[{"column":51,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js","function":"_callee$","line":4,"method":null,"native":false},{"column":17,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js","function":"checkEmail","line":1,"method":null,"native":false},{"column":15,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\services\\/user.service.js","function":"_callee2$","line":38,"method":null,"native":false},{"column":17,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":95,"method":null,"native":false}]}
+info: ::1 - - [27/Jan/2023:16:49:57 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+error: uncaughtException: User is not defined
+ReferenceError: User is not defined
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:6:33)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) {"date":"Fri Jan 27 2023 22:19:57 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2012596.406},"process":{"argv":["node","C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\index.js"],"cwd":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18309577,"external":19842851,"heapTotal":54992896,"heapUsed":49794032,"rss":96006144},"pid":35304,"uid":null,"version":"v18.13.0"},"stack":"ReferenceError: User is not defined\n    at _callee$ (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js:6:33)\n    at tryCatch (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)","trace":[{"column":33,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js","function":"_callee$","line":6,"method":null,"native":false},{"column":17,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false}]}
+info: ::1 - - [27/Jan/2023:16:51:27 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:16:51:48 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+error: uncaughtException: Email already registered
+Error: Email already registered
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:19:15)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at checkEmail (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:3:24)
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:38:15)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) {"date":"Fri Jan 27 2023 22:21:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2012707.234},"process":{"argv":["node","C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\index.js"],"cwd":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18317376,"external":19850650,"heapTotal":51585024,"heapUsed":47779312,"rss":92540928},"pid":12644,"uid":null,"version":"v18.13.0"},"stack":"Error: Email already registered\n    at _callee$ (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js:19:15)\n    at tryCatch (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:27:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:19:12\n    at checkEmail (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js:3:24)\n    at _callee2$ (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\services\\/user.service.js:38:15)\n    at tryCatch (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:44:17)\n    at Generator.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:125:22)\n    at Generator.next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js:69:21)\n    at asyncGeneratorStep (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:22:9)","trace":[{"column":15,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js","function":"_callee$","line":19,"method":null,"native":false},{"column":17,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false},{"column":7,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":27,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":null,"line":19,"method":null,"native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\utils\\/user.util.js","function":"checkEmail","line":3,"method":null,"native":false},{"column":15,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\services\\/user.service.js","function":"_callee2$","line":38,"method":null,"native":false},{"column":17,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"tryCatch","line":44,"method":null,"native":false},{"column":22,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":null,"line":125,"method":null,"native":false},{"column":21,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\regeneratorRuntime.js","function":"Generator.next","line":69,"method":"next","native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":22,"method":null,"native":false}]}
+info: ::1 - - [27/Jan/2023:16:54:08 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 59 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [27/Jan/2023:16:54:44 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 59 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:02:46:55 +0000] "POST /api/v1/users/token HTTP/1.1" 500 53 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:02:47:35 +0000] "POST /api/v1/users/token HTTP/1.1" 200 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [28/Jan/2023:03:17:59 +0000] "POST /api/v1/users/token HTTP/1.1" 200 40 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:11:21 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:12:19 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 322 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:12:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:15:18 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:15:54 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:16:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:17:07 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:18:38 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:07:19:23 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.0"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\routes\/index.js:16:10)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Mon Jan 30 2023 14:06:01 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2242166.609},"process":{"argv":["node","C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\index.js"],"cwd":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18347257,"external":19863567,"heapTotal":91955200,"heapUsed":56936648,"rss":132988928},"pid":10516,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":13,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [30/Jan/2023:08:39:40 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:43:56 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 227 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:47:13 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 227 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:48:26 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:48:31 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:50:34 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:50:37 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:50:42 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:51:17 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:51:47 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:52:33 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:53:17 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:08:53:26 +0000] "DELETE /api/v1/notes/ HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:41:48 +0000] "DELETE /api/v1/notes/create HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:41:54 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 320 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:42:19 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 238 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:42:52 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 240 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:43:20 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 268 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:44:47 +0000] "DELETE /api/v1/notes/Step-3 HTTP/1.1" 502 320 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:46:02 +0000] "PUT /api/v1/notes/Deatalls HTTP/1.1" 201 238 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:47:04 +0000] "PUT /api/v1/notes/Deatallsaa HTTP/1.1" 201 238 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:47:56 +0000] "PUT /api/v1/notes/Deatallsaa HTTP/1.1" 201 238 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:48:45 +0000] "PUT /api/v1/notes/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:48:52 +0000] "PUT /api/v1/notes/hsjja HTTP/1.1" 201 238 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:49:15 +0000] "PUT /api/v1/notes/hsjja HTTP/1.1" 201 238 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:49:16 +0000] "PUT /api/v1/notes/hsjja HTTP/1.1" 201 238 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:55:06 +0000] "PUT /api/v1/notes/hsa HTTP/1.1" 201 154 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:55:29 +0000] "PUT /api/v1/notes/hsa HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:56:17 +0000] "PUT /api/v1/notes/null HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:56:23 +0000] "PUT /api/v1/notes/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:09:56:29 +0000] "PUT /api/v1/notes/null HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:02:28 +0000] "PUT /api/v1/notes/null HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:02:46 +0000] "PUT /api/v1/notes/Step-3 HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:02:53 +0000] "PUT /api/v1/notes/Step-3 HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:06:47 +0000] "PUT /api/v1/notes/Step-3 HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:08:06 +0000] "PUT /api/v1/notes/Step-3 HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:08:25 +0000] "PUT /api/v1/notes/Step-3 HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:09:08 +0000] "PUT /api/v1/notes/Step-3 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:10:59 +0000] "PUT /api/v1/notes/Step-3 HTTP/1.1" 201 158 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:11:15 +0000] "PUT /api/v1/notes/null HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:11:21 +0000] "PUT /api/v1/notes/sjsk HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:13:37 +0000] "PUT /api/v1/notes/Step-1 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:13:59 +0000] "PUT /api/v1/notes/Step-1 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:14:48 +0000] "PUT /api/v1/notes/Step-1 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:15:21 +0000] "PUT /api/v1/notes/Step-1 HTTP/1.1" 201 87 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:15:35 +0000] "PUT /api/v1/notes/Step-1 HTTP/1.1" 201 155 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:18:17 +0000] "PUT /api/v1/notes/Step-1 HTTP/1.1" 201 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:18:39 +0000] "PUT /api/v1/notes/kk1 HTTP/1.1" 201 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:30:56 +0000] "POST /api/v1/notes/create HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:10:31:11 +0000] "POST /api/v1/notes/create HTTP/1.1" 201 157 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:23:02 +0000] "GET /api/v1/registeration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:23:21 +0000] "GET /api/v1/users/registeration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:23:54 +0000] "GET /api/v1/users/registeration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:25:41 +0000] "GET /api/v1/users/registeration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:25:49 +0000] "GET /api/v1/users/registeration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:25:49 +0000] "GET /api/v1/users/registeration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:25:50 +0000] "GET /api/v1/users/registeration HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:27:24 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:27:35 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:27:41 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:27:51 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:38:12 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:38:23 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:38:30 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:11:38:39 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 325 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:12:02:49 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:12:02:58 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:12:04:33 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:12:05:04 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:12:05:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:12:06:48 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:12:11:53 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 327 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:12:12:09 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:21:19 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:21:49 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:24:28 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:36:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:56:42 +0000] "DELETE /api/v1/notes/63d791388f96a67e94152927 HTTP/1.1" 502 240 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:04 +0000] "DELETE /api/v1/notes/63d791388f96a67e94152927 HTTP/1.1" 502 155 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:19 +0000] "DELETE /api/v1/notes/63d791388f96a67e94152927 HTTP/1.1" 502 157 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:21 +0000] "DELETE /api/v1/notes/63d791388f96a67e94152927 HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:22 +0000] "DELETE /api/v1/notes/63d791388f96a67e94152927 HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:32 +0000] "DELETE /api/v1/notes/63d791388f96a67e94152927 HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:33 +0000] "DELETE /api/v1/notes/63d791388f96a67e94152927 HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:37 +0000] "DELETE /api/v1/notes/63d79c6fd6b1a95f8484df98 HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:38 +0000] "DELETE /api/v1/notes/63d79c6fd6b1a95f8484df98 HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:39 +0000] "DELETE /api/v1/notes/63d79c6fd6b1a95f8484df98 HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:57:46 +0000] "DELETE /api/v1/notes/63d79c6fd6b1a95f8484df98 HTTP/1.1" 502 74 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:58:58 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 157 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:59:14 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 157 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:59:20 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 157 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:14:59:52 +0000] "PUT /api/v1/notes/63d7db4818744a462c5d7234 HTTP/1.1" 201 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:15:00:02 +0000] "PUT /api/v1/notes/63d7db4818744a462c5d7234 HTTP/1.1" 201 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:15:00:20 +0000] "PUT /api/v1/notes/%2263d7db4818744a462c5d7234%22 HTTP/1.1" 201 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:15:00:29 +0000] "PUT /api/v1/notes/%2263d7db4818744a462c5d7234%22 HTTP/1.1" 201 88 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:15:01:39 +0000] "PUT /api/v1/notes/%2263d7db4818744a462c5d7234%22 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:15:03:36 +0000] "PUT /api/v1/notes/%2263d7db4818744a462c5d7234%22 HTTP/1.1" 201 50 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:15:04:12 +0000] "PUT /api/v1/notes/63d7db4818744a462c5d7234 HTTP/1.1" 201 156 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [30/Jan/2023:15:16:35 +0000] "GET /api/v1/notes/63d7db4218744a462c5d7232 HTTP/1.1" 200 157 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:04:42:58 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:04:43:53 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:04:44:18 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:04:44:51 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:04:44:57 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:04:45:05 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:04:57:05 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:04:57:43 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:11:40 +0000] "PUT /api/v1/users/63d7db3218744a462c5d7230 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:11:48 +0000] "PUT /api/v1/notes/63d7db3218744a462c5d7230 HTTP/1.1" 201 145 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:46:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 199 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:05:48:05 +0000] "POST /api/v1/users/login HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:30:52 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:31:42 +0000] "GET /api/v1/users/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:31:47 +0000] "POST /api/v1/users/login HTTP/1.1" 200 199 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:32:18 +0000] "GET /api/v1/notes HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:32:50 +0000] "GET /api/v1/notes HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:36:10 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:40:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:40:59 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:42:53 +0000] "GET /api/v1/notes/ HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:10:48:42 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 444 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:44:13 +0000] "GET /api/v1/notes/63d3c150e0c21c88489d5609 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:44:42 +0000] "GET /api/v1/notes/63d3c146e0c21c88489d5605 HTTP/1.1" 200 62 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:44:47 +0000] "GET /api/v1/notes/ HTTP/1.1" 200 444 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:45:36 +0000] "DELETE /api/v1/notes/63d3c146e0c21c88489d5605 HTTP/1.1" 502 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:11:47:03 +0000] "GET /api/v1/notes/63d7db4818744a462c5d7234 HTTP/1.1" 200 187 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:12:42:33 +0000] "GET /api/v1/notes/63d7db4818744a462c5d7234 HTTP/1.1" 200 187 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [31/Jan/2023:14:21:49 +0000] "GET /api/v1/notes/63d7db4818744a462c5d7234/Trash HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:22:07 +0000] "GET /api/v1/notes/63d7db4818744a462c5d7234/Trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:22:51 +0000] "GET /api/v1/notes/63d7db4818744a462c5d7234/Trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:24:55 +0000] "GET /api/v1/notes/63d7db4818744a462c5d7234/Trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:26:15 +0000] "GET /api/v1/notes/63d7db3218744a462c5d7230/Trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:28:15 +0000] "GET /api/v1/notes/63d7db3218744a462c5d7230/Trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:30:25 +0000] "POST /api/v1/users/re HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:32:06 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 321 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:32:23 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 321 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:32:26 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 59 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:33:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 195 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:36:11 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 295 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:36:29 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 281 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:37:15 +0000] "GET /api/v1/notes/63d9276d8d8fe7561c2ff4ab/Trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:37:47 +0000] "GET /api/v1/notes/63d9276d8d8fe7561c2ff4ab/Trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:39:50 +0000] "GET /api/v1/notes/63d9276d8d8fe7561c2ff4ab/Trash HTTP/1.1" 500 54 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:45:30 +0000] "POST /api/v1/users/registeration HTTP/1.1" 500 89 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:45:36 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 323 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:47:22 +0000] "POST /api/v1/users/login HTTP/1.1" 200 195 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:14:48:02 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 290 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:18:37 +0000] "GET /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:18:44 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 22965 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:22:04 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 85 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:23:02 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 85 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:23:57 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 85 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:26:09 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 124 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:27:10 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 125 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:27:37 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 57 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:28:07 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 57 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:28:25 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 57 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:28:39 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 57 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:29:08 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:29:14 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:30:16 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 125 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:30:31 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 295 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:30:34 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:30:37 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 295 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:33:56 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:33:57 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 295 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:35:14 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 55 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:36:27 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 500 57 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:36:57 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:37:00 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 295 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:37:01 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:37:43 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 295 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:37:44 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Trash HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:469:13)
+    at routes (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\routes\/index.js:16:10)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 22:14:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2357878.812},"process":{"argv":["node","C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\index.js"],"cwd":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":19063296,"external":20579606,"heapTotal":94314496,"heapUsed":64174472,"rss":134684672},"pid":34616,"uid":null,"version":"v18.13.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\express\\lib\\router\\index.js:469:13)\n    at routes (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\routes\\/index.js:16:10)\n    at Object.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":13,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\express\\lib\\router\\index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\routes\\/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+error: uncaughtException: (0 , _routes.default) is not a function
+TypeError: (0 , _routes.default) is not a function
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Module._compile (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Object.newLoader [as .js] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.runMain (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\node\src\_babel-node.ts:223:12)
+    at Module._compile (node:internal/modules/cjs/loader:1218:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)
+    at Module.load (node:internal/modules/cjs/loader:1081:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:922:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:23:47 {"date":"Tue Jan 31 2023 22:15:28 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":2357933.046},"process":{"argv":["node","C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\index.js"],"cwd":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18821327,"external":20337637,"heapTotal":92741632,"heapUsed":56542536,"rss":132956160},"pid":31492,"uid":null,"version":"v18.13.0"},"stack":"TypeError: (0 , _routes.default) is not a function\n    at Object.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Module._compile (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Object.newLoader [as .js] (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.runMain (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts:223:12)\n    at Module._compile (node:internal/modules/cjs/loader:1218:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1272:10)\n    at Module.load (node:internal/modules/cjs/loader:1081:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:922:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at node:internal/main/run_main_module:23:47","trace":[{"column":38,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\src\\/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":7,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":81,"method":"runMain","native":false},{"column":12,"file":"C:\\Users\\prath\\OneDrive\\Desktop\\Projectss\\awesome-project\\node_modules\\@babel\\node\\src\\_babel-node.ts","function":null,"line":223,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1218,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1272,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1081,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":922,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":47,"file":"node:internal/main/run_main_module","function":null,"line":23,"method":null,"native":false}]}
+info: ::1 - - [31/Jan/2023:16:49:04 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 293 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:05 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:06 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 293 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:07 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:08 +0000] "PATCH /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 293 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:28 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:30 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 293 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:31 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:32 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 293 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:16:49:33 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:51:02 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:51:45 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:52:39 +0000] "POST /api/v1/users/login HTTP/1.1" 200 195 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:53:02 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 293 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:53:05 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:53:07 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 293 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:54:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 195 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:55:03 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 294 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:18:56:39 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 201 293 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:00:46 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 320 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:01:05 +0000] "POST /api/v1/users/registeration HTTP/1.1" 201 324 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:03:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:04:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:04:44 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 283 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:06:24 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 297 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:06:29 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 297 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:07:16 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:07:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:08:26 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 292 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:08:35 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 292 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:11:32 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 500 86 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:13:06 +0000] "PUT /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve HTTP/1.1" 500 86 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:14:01 +0000] "PUT /api/v1/notes/63d96733b69e0288606e4887/Archieve HTTP/1.1" 201 291 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:14:37 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 296 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:16:57 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 297 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:17:43 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 296 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:19:10 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 297 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:19:55 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 500 22 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:20:18 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 296 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:22:39 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 297 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:24:20 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:24:25 +0000] "PATCH /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 296 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:26:32 +0000] "PATCH /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 297 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [31/Jan/2023:19:35:37 +0000] "PATCH /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 296 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:18:26 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 297 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:18:30 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 296 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:18:33 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 201 297 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:19:05 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:19:50 +0000] "GET /api/v1/notes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:05:20:20 +0000] "GET /api/v1/notes HTTP/1.1" 200 1013 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:07:20:46 +0000] "GET /api/v1/notes HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:07:24:38 +0000] "GET /api/v1/notes HTTP/1.1" 200 533 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:07:25:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:07:25:36 +0000] "GET /api/v1/notes HTTP/1.1" 200 544 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:14:48:05 +0000] "GET /api/v1/notes HTTP/1.1" 200 544 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:14:50:41 +0000] "GET /api/v1/notes HTTP/1.1" 200 544 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:14:51:41 +0000] "GET /api/v1/notes HTTP/1.1" 200 544 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:14:51:48 +0000] "GET /api/v1/notes HTTP/1.1" 200 544 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:14:52:18 +0000] "GET /api/v1/notes HTTP/1.1" 200 544 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:02:22 +0000] "GET /api/v1/notes HTTP/1.1" 200 544 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:10:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:13:23 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 287 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:14:35 +0000] "GET /api/v1/notes HTTP/1.1" 200 544 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:15:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:15:51 +0000] "GET /api/v1/notes HTTP/1.1" 200 533 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:54:19 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:55:10 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 269 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:55:27 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 269 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:56:09 +0000] "GET /api/v1/notes HTTP/1.1" 200 488 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:58:22 +0000] "GET /api/v1/notes HTTP/1.1" 200 488 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:16:59:29 +0000] "GET /api/v1/notes HTTP/1.1" 200 488 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:00:08 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:00:15 +0000] "POST /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:00:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 194 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:01:33 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 269 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:02:22 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 269 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:03:31 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 269 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:03:56 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 81 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:05:22 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 305 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:06:22 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 269 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:13:19 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 267 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:13:34 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 267 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:13:38 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 267 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:16:08 +0000] "GET /api/v1/notes HTTP/1.1" 200 694 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:16:30 +0000] "GET /api/v1/notes HTTP/1.1" 500 48 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:16:37 +0000] "GET /api/v1/notes HTTP/1.1" 200 694 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:20:25 +0000] "POST /api/v1/notes/ HTTP/1.1" 500 88 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:21:00 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 267 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:24:44 +0000] "GET /api/v1/notes HTTP/1.1" 200 904 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:28:45 +0000] "GET /api/v1/notes HTTP/1.1" 200 904 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:29:18 +0000] "GET /api/v1/notes HTTP/1.1" 200 904 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:29:42 +0000] "GET /api/v1/notes HTTP/1.1" 200 904 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:30:33 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:31:03 +0000] "GET /api/v1/notes HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:33:13 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 303 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:33:31 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 303 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:34:09 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 267 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:36:04 +0000] "GET /api/v1/notes HTTP/1.1" 200 556 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:40:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 197 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:41:41 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 305 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:41:48 +0000] "POST /api/v1/notes/ HTTP/1.1" 201 305 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:42:35 +0000] "GET /api/v1/notes HTTP/1.1" 200 560 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:43:11 +0000] "PUT /api/v1/notes/63d966b5b69e0288606e4881/Archieve HTTP/1.1" 500 86 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:47:50 +0000] "PUT /api/v1/notes/63daa45c7217d516104a317e/Archieve HTTP/1.1" 201 304 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:47:54 +0000] "PUT /api/v1/notes/63daa45c7217d516104a317e/Archieve HTTP/1.1" 201 305 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:47:55 +0000] "PUT /api/v1/notes/63daa45c7217d516104a317e/Archieve HTTP/1.1" 201 304 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:47:57 +0000] "PUT /api/v1/notes/63daa45c7217d516104a317e/Archieve HTTP/1.1" 201 305 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:48:07 +0000] "PUT /api/v1/notes/63daa45c7217d516104a317e/Trash HTTP/1.1" 201 304 "-" "PostmanRuntime/7.30.1"
+
+info: ::1 - - [01/Feb/2023:17:48:09 +0000] "PUT /api/v1/notes/63daa45c7217d516104a317e/Trash HTTP/1.1" 201 305 "-" "PostmanRuntime/7.30.1"
+

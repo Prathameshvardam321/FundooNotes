@@ -1,10 +1,11 @@
 import HttpStatus from 'http-status-codes';
 import * as NoteService from '../services/note.service';
+import logger, { logStream } from '../config/logger';
 
 
 export const getAllNotes = async (req, res, next) => {
     try {
-        const data = await NoteService.getAllNotes();
+        const data = await NoteService.getAllNotes(req);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,

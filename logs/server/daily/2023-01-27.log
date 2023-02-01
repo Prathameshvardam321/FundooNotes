@@ -1370,3 +1370,137 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T1
 info: Connected to the database. {"timestamp":"2023-01-27T13:45:35.697Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:45:43.243Z"}
 info: Connected to the database. {"timestamp":"2023-01-27T13:45:43.280Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:54:51.538Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:54:51.557Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T13:55:59.628Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T13:55:59.650Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.validateUser is not a function
+    at _callee7$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:132:36)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at login (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/user.controller.js:130:19)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T14:02:15.172Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T14:02:52.956Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T14:02:52.981Z"}
+error: 
+    status - 500 
+    message - Error: Wrong credentials
+    at _callee3$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:46:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T14:03:02.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T16:47:10.932Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T16:47:10.971Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T16:49:45.898Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T16:49:45.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T16:50:40.655Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T16:50:40.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T16:51:04.291Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T16:51:04.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T16:54:01.935Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T16:54:01.967Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:19:15)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at checkEmail (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:3:24)
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:39:22)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T16:54:08.293Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T16:54:42.873Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T16:54:42.908Z"}
+error: 
+    status - 500 
+    message - Error: Email already registered
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:19:15)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at checkEmail (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\utils\/user.util.js:3:24)
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/user.service.js:39:22)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-27T16:54:44.792Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-27T16:55:07.025Z"}
+info: Connected to the database. {"timestamp":"2023-01-27T16:55:07.048Z"}

@@ -1,0 +1,684 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:09:51.748Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:09:51.782Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:10:05.788Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:10:05.824Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T07:11:21.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:16:09.735Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:16:09.769Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:17:21.632Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:17:21.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:18:36.324Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:18:36.364Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-30T07:18:38.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:19:20.299Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:19:20.340Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-01-30T07:19:23.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:21:50.438Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:21:50.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:24:27.690Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:24:27.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T07:24:45.729Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T07:24:45.767Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:36:01.988Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:36:46.119Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:36:46.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:36:54.195Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:36:54.223Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:39:37.150Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:39:37.177Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 43
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/ 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2023-01-30T08:47:03.986Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:50:28.983Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:50:29.013Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:51:14.062Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:51:14.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:51:46.122Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:51:46.156Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:51:58.966Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:51:58.992Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:52:29.674Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:52:29.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:53:00.437Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:53:00.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:53:04.434Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:53:04.467Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:53:10.852Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:53:10.882Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:53:36.868Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:53:36.894Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T08:55:53.248Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T08:55:53.276Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T09:40:10.636Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T09:40:10.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T09:40:46.736Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T09:40:46.763Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T09:47:45.594Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T09:47:45.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T09:54:49.223Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T09:54:49.252Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T09:55:27.394Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T09:55:27.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T09:55:47.261Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T09:55:47.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:02:23.458Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:02:23.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:06:44.459Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:06:44.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:08:00.108Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:08:00.145Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:08:03.999Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:08:04.025Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:08:20.496Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:08:20.532Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:09:06.525Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:09:06.562Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:09:42.874Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:09:42.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:10:38.755Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:10:38.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:10:53.350Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:10:53.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:14:45.188Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:14:45.219Z"}
+error: 
+    status - 500 
+    message - ReferenceError: next is not defined
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/note.service.js:47:5)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.updateNote (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/note.service.js:32:24)
+    at _callee4$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/note.controller.js:46:40)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at updateNote (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/note.controller.js:44:24)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5 
+    url - /api/v1/notes/Step-1 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-30T10:14:48.509Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:15:17.874Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:15:17.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:18:03.951Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:18:03.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T10:30:51.058Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T10:30:51.092Z"}
+error: 
+    status - 500 
+    message - ValidationError: "Title" is required 
+    url - /api/v1/notes/create 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T10:30:56.256Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:22:59.094Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:22:59.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:25:35.988Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:25:36.019Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:27:24.352Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:27:35.969Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:27:41.628Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:27:51.351Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:38:12.500Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:38:23.553Z"}
+error: 
+    status - 500 
+    message - ValidationError: "FirstName" is required 
+    url - /api/v1/users/registeration 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T11:38:30.791Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:52:12.089Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:52:12.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:54:15.789Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:54:15.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:54:22.629Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:54:22.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:55:39.744Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:55:39.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T11:58:22.938Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T11:58:23.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T12:04:28.830Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T12:04:28.882Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T12:04:33.903Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T12:05:04.695Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T12:05:51.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T12:06:44.968Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T12:06:45.028Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T12:06:48.419Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T12:12:09.625Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T14:21:19.908Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T14:21:35.313Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T14:21:35.344Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T14:21:49.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T14:24:25.385Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T14:24:25.424Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T14:24:28.422Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:32)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-01-30T14:36:18.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T14:52:03.028Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T14:52:03.063Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T14:52:29.376Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T14:52:29.410Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T14:55:40.556Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T14:55:40.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T14:55:50.868Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T14:55:50.903Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T14:56:06.575Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T14:56:06.607Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T14:58:42.107Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T14:58:42.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:01:35.413Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:01:35.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:03:33.358Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:03:33.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:05:45.882Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:05:45.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:07:30.351Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:07:30.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:08:19.809Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:08:19.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:09:11.021Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:09:11.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:11:56.247Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:11:56.288Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:12:20.015Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:12:20.056Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:13:36.479Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:13:36.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:16:00.638Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:16:00.673Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-30T15:16:18.353Z"}
+info: Connected to the database. {"timestamp":"2023-01-30T15:16:18.388Z"}

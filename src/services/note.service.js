@@ -1,22 +1,22 @@
 import Notes from '../models/note.model'
 import { toggle } from '../utils/toggle';
+import { user1 } from '../middlewares/auth.middleware';
+import { user } from '../middlewares/auth.middleware';
+//create a note
+export const createNote = async (body) => {
+    const data = await Notes.create(body)
+    return data
+}
 
 //getAll
-export const getAllNotes = async () => {
-    const data = await Notes.find();
+export const getAllNotes = async (req) => {
+    const data = await Notes.find({ UserId: user1._id });
     return data;
 };
 
 //getOneUser
 export const getNote = async (_id) => {
     const data = await Notes.findById(_id)
-    return data
-}
-
-
-//create a note
-export const createNote = async (body) => {
-    const data = await Notes.create(body)
     return data
 }
 
@@ -40,15 +40,16 @@ export const updateNote = async (_id, body) => {
 }
 
 export const noteTrash = async (body) => {
-    const data = await Notes.findOne({ "_id": body.params.id})
+    const data = await Notes.findOne({ "_id": body.params.id })
     const { Trash } = data
-    const data1 = await Notes.findByIdAndUpdate({ "_id": body.params.id },{Trash:toggle(Trash)},{new:true})
+    const data1 = await Notes.findByIdAndUpdate({ "_id": body.params.id }, { Trash: toggle(Trash) }, { new: true })
     return data1
 }
 
 export const noteArchieve = async (body) => {
-    const data = await Notes.findOne({ "_id": body.params.id})
+    const data = await Notes.findOne({ "_id": body.params.id })
+    console.log(data);
     const { Archieve } = data
-    const data1 = await Notes.findByIdAndUpdate({ "_id": body.params.id },{Archieve:toggle(Archieve)},{new:true})
+    const data1 = await Notes.findByIdAndUpdate({ "_id": body.params.id }, { Archieve: toggle(Archieve) }, { new: true })
     return data1
 }
