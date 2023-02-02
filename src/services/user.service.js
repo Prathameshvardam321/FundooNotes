@@ -46,10 +46,20 @@ export const forgetPassword = async (body) => {
   if (!user) {
     throw new Error('Email not exists!')
   }
-  const token = jwt.sign({Email:user.Email},process.env.SECRET_KEY_PASSWORD)
-  
- const data = await sendEmail(user.Email,token)
- console.log("Data sendmail---------",data);
+  const token = jwt.sign({ Email: user.Email }, process.env.SECRET_KEY_PASSWORD)
+
+  const data = await sendEmail(user.Email, token)
+  console.log("Data sendmail---------", data);
 }
 
+
+export const resetPassword = async (body) => {
+  const hashedPassword = await bcrypt.hash(body.Password, 10)
+
+  const data = await User.findOneAndUpdate({ Email: body.Email }, {
+    Password: hashedPassword}, { new: true })
+
+  return data
+
+}
 

@@ -62,3 +62,17 @@ export const forgetPassword = async (req, res, next) => {
   }
 }
 
+export const resetPassword = async (req, res, next) => {
+  try {
+    const data = await UserService.resetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'Password reseted successfully'
+    });
+  } catch (error) {
+    next(error)
+  }
+}
+
+

@@ -19,3 +19,20 @@ console.log("Req of auth----->",req.body);
   }
 };
 
+export const resetPasswordAuth  = async (req, res, next) => {
+  try {
+    let bearerToken = req.params.tokenId
+    if (!bearerToken)
+    throw {
+      code: HttpStatus.BAD_REQUEST,
+      message: 'Authorization token is required'
+    };
+    const user = await jwt.verify(bearerToken, process.env.SECRET_KEY_PASSWORD);
+    req.body.Email = user.Email
+    next();
+  } catch (error) {
+    next(error)
+    
+  }
+}
+
