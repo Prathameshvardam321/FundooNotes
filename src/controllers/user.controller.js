@@ -21,7 +21,6 @@ export const register = async (req, res, next) => {
   try {
     const data = await UserService.register(req.body);
     if (req.body.Password === req.body.ConfirmPassword) {
-
     }
     else {
       throw new Error("Password not matching")
@@ -50,17 +49,16 @@ export const login = async (req, res, next) => {
   }
 }
 
-
-export const createToken = async(req,res,next) =>{
+export const forgetPassword = async (req, res, next) => {
   try {
-    const data = await UserService.createToken(req.body);
+    const data = await UserService.forgetPassword(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
-      message: 'Generated token'
+      message: ''
     });
   } catch (error) {
-    console.log(error);
     next(error)
   }
 }
+

@@ -1,7 +1,6 @@
 import Notes from '../models/note.model'
 import { toggle } from '../utils/toggle';
-import { user1 } from '../middlewares/auth.middleware';
-import { user } from '../middlewares/auth.middleware';
+
 //create a note
 export const createNote = async (body) => {
     const data = await Notes.create(body)
@@ -9,8 +8,8 @@ export const createNote = async (body) => {
 }
 
 //getAll
-export const getAllNotes = async (req) => {
-    const data = await Notes.find({ UserId: user1._id });
+export const getAllNotes = async (body) => {
+    const data = await Notes.find({UserId:body.UserId});
     return data;
 };
 

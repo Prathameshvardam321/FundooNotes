@@ -5,7 +5,8 @@ import logger, { logStream } from '../config/logger';
 
 export const getAllNotes = async (req, res, next) => {
     try {
-        const data = await NoteService.getAllNotes(req);
+        console.log("REQ___--------",req.body);
+        const data = await NoteService.getAllNotes(req.body);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
@@ -32,6 +33,7 @@ export const getNote = async (req, res, next) => {
 
 export const createNote = async (req, res, next) => {
     try {
+        console.log("Body___----",req.body);
         const data = await NoteService.createNote(req.body)
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,

@@ -14,4 +14,7 @@ router.post('/registeration', newUserValidator, userController.register);
 //route to check login
 router.post('/login',userController.login)
 
+//forget password
+router.post('/forgetpassword',userController.forgetPassword)
+
 export default router;
