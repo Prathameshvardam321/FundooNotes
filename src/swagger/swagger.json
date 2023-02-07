@@ -81,7 +81,7 @@
                 }
             }
         },
-        "/users/forgetpassword": {
+        "/users/forgetPassword": {
             "post": {
                 "tags": [
                     "Users"
@@ -89,11 +89,11 @@
                 "description": "Enter mail...",
                 "parameters": [
                     {
-                        "name": "forget password",
+                        "name": "forget Password",
                         "in": "body",
                         "description": "Enter mail to send ",
                         "schema": {
-                            "$ref": "#/definitions/forgetpassword"
+                            "$ref": "#/definitions/forgetPassword"
                         }
                     }
                 ],
@@ -110,7 +110,7 @@
                 }
             }
         },
-        "/users/resetpassword/{tokenId}": {
+        "/users/resetPassword/{tokenId}": {
             "post": {
                 "tags": [
                     "Users"
@@ -118,11 +118,11 @@
                 "description": "Enter token in params...",
                 "parameters": [
                     {
-                        "name": "reset password",
-                        "in": "body",
+                        "name": "reset Password",
+                        "in": "path",
                         "description": "Enter Password ",
                         "schema": {
-                            "$ref": "#/definitions/resetpassword"
+                            "$ref": "#/definitions/resetPassword"
                         }
                     }
                 ],
@@ -139,7 +139,7 @@
                         "description": "Password reset successfully"
                     },
                     "500": {
-                        "description": "Entered password properly"
+                        "description": "Entered Password properly"
                     }
                 }
             }
@@ -178,7 +178,7 @@
                 }
             }
         },
-        "/notes/{ id}": {
+        "/notes/{_id}": {
             "get": {
                 "tags": [
                     "Notes"
@@ -186,17 +186,16 @@
                 "description": "Get Note....",
                 "parameters": [
                     {
-                        "name": "Get Note",
-                        "in": "body",
-                        "description": ""
+                        "name":"_id" ,
+                        "in": "path",
+                        "description": "Get Note...."
                     }
+                    
                 ],
                 "produces": [
                     "application/json"
                 ],
-                "schema": {
-                    "$ref": "#/definitions/createNote"
-                },
+                
                 "security": [
                     {
                         "JWT": []
@@ -211,75 +210,76 @@
                     }
                 }
             }
-        },
-        "/notes/ {id}": {
-            "delete": {
-                "tags": [
-                    "Notes"
-                ],
-                "description": "Deleting Note....",
-                "parameters": [
-                    {
-                        "name": "Delete Note",
-                        "in": "body",
-                        "description": ""
-                    }
-                ],
-                "schema": {
-                    "$ref": "#/definitions/createNote"
+        ,
+        "delete": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "Deleting Note....",
+            "parameters": [
+                {
+                    "name": "Delete Note",
+                    "in": "path",
+                    "description": ""
+                }
+            ],
+            
+            "produces": [
+                "application/json"
+            ],
+            "security": [
+                {
+                    "JWT": []
+                }
+            ],
+            "responses": {
+                "200": {
+                    "description": "Note deleted successfully"
                 },
-                "produces": [
-                    "application/json"
-                ],
-                "security": [
-                    {
-                        "JWT": []
-                    }
-                ],
-                "responses": {
-                    "200": {
-                        "description": "Note deleted successfully"
-                    },
-                    "500": {
-                        "description": "Note not found"
-                    }
+                "400": {
+                    "description": "Note not found"
                 }
             }
-        },
-        "/notes/{id}": {
-            "put": {
-                "tags": [
-                    "Notes"
-                ],
-                "description": "Update Note....",
-                "parameters": [
-                    {
-                        "name": "Updated Note",
-                        "in": "body",
-                        "description": "",
-                        "schema": {
-                            "$ref": "#/definitions/createNote"
-                        }
-                    }
-                ],
-                "produces": [
-                    "application/json"
-                ],
-                "security": [
-                    {
-                        "JWT": []
-                    }
-                ],
-                "responses": {
-                    "201": {
-                        "description": "Note updated successfully"
-                    },
-                    "500": {
-                        "description": "Note not found"
+        }, "put": {
+            "tags": [
+                "Notes"
+            ],
+            "description": "Update Note....",
+            "parameters": [
+                { 
+                    "name": "_id",
+                    "in": "path",
+                    "description": "Input Id"
+                    
+                },
+                {
+                    "name": "_id",
+                    "in": "body",
+                    "description": "body object",
+                    "schema": {
+                        "$ref": "#/definitions/updateNote"
                     }
                 }
+            ],
+            "produces": [
+                "application/json"
+            ],
+            "security": [
+                {
+                    "JWT": []
+                }
+            ],
+            "responses": {
+                "201": {
+                    "description": "Note updated successfully"
+                },
+                "400": {
+                    "description": "Note not found"
+                }
             }
-        },
+        }
+    }
+       ,
         "/notes/{id}/Archieve": {
             "put": {
                 "tags": [
@@ -288,12 +288,9 @@
                 "description": "Add into Archieve....",
                 "parameters": [
                     {
-                        "name": "Add to Archieve",
-                        "in": "body",
-                        "description": "",
-                        "schema": {
-                            "$ref": "#/definitions/createNote"
-                        }
+                        "name": "id",
+                        "in": "path",
+                        "description": ""
                     }
                 ],
                 "produces": [
@@ -322,12 +319,9 @@
                 "description": "Add to Trash",
                 "parameters": [
                     {
-                        "name": "Updated Note",
-                        "in": "body",
-                        "description": "",
-                        "schema": {
-                            "$ref": "#/definitions/createNote"
-                        }
+                        "name": "id",
+                        "in": "path",
+                        "description": ""
                     }
                 ],
                 "produces": [
@@ -353,19 +347,19 @@
         "User": {
             "type": "object",
             "properties": {
-                "fname": {
+                "FirstName": {
                     "type": "string"
                 },
-                "lname": {
+                "LastName": {
                     "type": "string"
                 },
-                "email": {
+                "Email": {
                     "type": "string"
                 },
-                "password": {
+                "Password": {
                     "type": "string"
                 },
-                "confirmpassword": {
+                "ConfirmPassword": {
                     "type": "string"
                 }
             }
@@ -373,26 +367,26 @@
         "loging": {
             "type": "object",
             "properties": {
-                "email": {
+                "Email": {
                     "type": "string"
                 },
-                "password": {
+                "Password": {
                     "type": "string"
                 }
             }
         },
-        "forgetpassword": {
+        "forgetPassword": {
             "type": "object",
             "properties": {
-                "email": {
+                "Email": {
                     "type": "string"
                 }
             }
         },
-        "resetpassword": {
+        "resetPassword": {
             "type": "object",
             "properties": {
-                "password": {
+                "Password": {
                     "type": "string"
                 }
             }
@@ -405,14 +399,17 @@
                 },
                 "Description": {
                     "type": "string"
+                }
+            }
+        },
+        "updateNote": {
+            "type": "object",
+            "properties": {
+                "Title": {
+                    "type": "string"
                 },
-                "Trash": {
-                    "type": "boolean",
-                    "default": "false"
-                },
-                "Archieve": {
-                    "type": "boolean",
-                    "default": "false"
+                "Description": {
+                    "type": "string"
                 }
             }
         }

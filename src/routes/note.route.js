@@ -13,7 +13,7 @@ router.get('/:_id', userAuth, userController.getNote)
 
 router.delete("/:_id", userAuth, userController.deleteNote)
 
-router.put("/:_id", newNotesValidator, userAuth, userController.updateNote)
+router.put("/:_id", userAuth, userController.updateNote)
 
 router.put("/:id/Trash",userAuth, userController.noteTrash)
 

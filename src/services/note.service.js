@@ -25,16 +25,12 @@ export const deleteNote = async (req) => {
         const data = await Notes.findByIdAndDelete(req.params._id)
         return " "
     } catch (error) {
-        next(error)
+        
     }
 }
 
-export const updateNote = async (_id, body) => {
-
-    if (!body.Description || !body.Title) {
-        return 'Not entered details Properly'
-    }
-    const data = await Notes.findByIdAndUpdate({ _id: _id }, body, { new: true })
+export const updateNote = async (_id,body) => {
+    const data = await Notes.findByIdAndUpdate({ "_id": _id }, body, { new: true })
     return data
 }
 

@@ -23,9 +23,7 @@ const userSchema = new Schema({
         type: Boolean,
         default: false
     }
-    // ,
-
-    // _id: { type: String, required: true }
+    
 },
     {
         timestamps: true
