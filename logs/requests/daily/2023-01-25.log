@@ -1,0 +1,74 @@
+info: ::1 - - [25/Jan/2023:10:58:06 +0000] "POST /api/v1/users HTTP/1.1" 201 222 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:10:58:57 +0000] "POST /api/v1/users HTTP/1.1" 500 89 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:02:31 +0000] "POST /api/v1/users HTTP/1.1" 500 89 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:02:37 +0000] "POST /api/v1/users HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:03:05 +0000] "POST /api/v1/users HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:03:16 +0000] "POST /api/v1/users HTTP/1.1" 500 66 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:03:24 +0000] "POST /api/v1/users HTTP/1.1" 500 66 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:03:35 +0000] "POST /api/v1/users HTTP/1.1" 500 66 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:04:19 +0000] "POST /api/v1/users HTTP/1.1" 201 250 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:04:23 +0000] "POST /api/v1/users HTTP/1.1" 201 250 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:04:33 +0000] "POST /api/v1/users HTTP/1.1" 201 252 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:36:51 +0000] "GET /api/v1/user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:11:37:29 +0000] "GET /api/v1/users HTTP/1.1" 200 61717 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:13:24 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:12:13:33 +0000] "POST /api/v1/users HTTP/1.1" 201 250 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:15:01:29 +0000] "POST /api/v1/users HTTP/1.1" 201 251 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:34:30 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:35:16 +0000] "POST /api/v1/users HTTP/1.1" 201 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:36:57 +0000] "POST /api/v1/users HTTP/1.1" 500 56 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:37:38 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:38:43 +0000] "POST /api/v1/users HTTP/1.1" 201 309 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:38:56 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:41:36 +0000] "POST /api/v1/users HTTP/1.1" 201 309 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:49:21 +0000] "POST /api/v1/users HTTP/1.1" 201 309 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:16:49:50 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:17:00:47 +0000] "POST /api/v1/users HTTP/1.1" 201 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:17:03:15 +0000] "POST /api/v1/users HTTP/1.1" 201 276 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:17:05:13 +0000] "POST /api/v1/users HTTP/1.1" 201 307 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:17:26:11 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:17:26:26 +0000] "POST /api/v1/users HTTP/1.1" 201 305 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:17:44:02 +0000] "POST /api/v1/users HTTP/1.1" 500 61 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:17:44:24 +0000] "POST /api/v1/users HTTP/1.1" 201 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:17:45:51 +0000] "POST /api/v1/users HTTP/1.1" 201 306 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:18:19:21 +0000] "POST /api/v1/users/login HTTP/1.1" 500 60 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:18:20:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 42 "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:18:23:09 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.30.0"
+
+info: ::1 - - [25/Jan/2023:18:23:59 +0000] "POST /api/v1/users/login HTTP/1.1" - - "-" "PostmanRuntime/7.30.0"
+

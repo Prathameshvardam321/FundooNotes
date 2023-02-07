@@ -1,0 +1,398 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "V1",
+        "title": "Fundoo_App",
+        "description": "<h3>Fundoo Notes</h3>"
+    },
+    "host": "localhost:3000",
+    "basePath": "/api/v1/",
+    "tags": [
+        {
+            "name": "Users",
+            "description": "Creating user......."
+        }
+      
+    ],
+    "schemes": [
+        "http"
+    ],
+    "consumes": [
+        "application/json"
+    ],
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/users": {
+            "post": {
+                "tags": ["Registeration"],
+                "description": "create name...",
+                "parameters": [
+                    {
+                        "name": "Create name",
+                        "in": "body",
+                        "description": "Create",
+                        "schema": {
+                            "$ref": "#/definitions/User"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/login": {
+            "post": {
+                "tags": ["Login"],
+                "description": "login name...",
+                "parameters": [
+                    {
+                        "name": "login user",
+                        "in": "body",
+                        "description": "login",
+                        "schema": {
+                            "$ref": "#/definitions/loging"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "New user is created"
+                    },
+                    "500": {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+        "/users/forgetpassword": {
+            "post": {
+                "tags": ["Forgetpassword"],
+                "description": "Enter mail...",
+                "parameters": [
+                    {
+                        "name": "forget password",
+                        "in": "body",
+                        "description": "Enter mail to send ",
+                        "schema": {
+                            "$ref": "#/definitions/forgetpassword"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Email sent successfully"
+                    },
+                    "500": {
+                        "description": "Email not exists"
+                    }
+                }
+            }
+        },
+        "/users/resetpassword/:tokenId": {
+            "post": {
+                "tags": ["ResetPassword"],
+                "description": "Enter token in params...",
+                "parameters": [
+                    {
+                        "name": "reset password",
+                        "in": "body",
+                        "description": "Enter Password ",
+                        "schema": {
+                            "$ref": "#/definitions/resetpassword"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Password reset successfully"
+                    },
+                    "500": {
+                        "description": "Entered password properly"
+                    }
+                }
+            }
+        }
+    },
+    "paths1": {
+        "/notes/": {
+            "get": {
+                "tags": ["Get All Notes"],
+                "description": "Get all Notes...",
+                "parameters": [
+                    {
+                        "name": "Get all documents",
+                        "in": "body",
+                        "description": " "
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Fetched all notes successfully"
+                    }
+                }
+            }
+        },
+        "/notes": {
+            "post": {
+                "tags": ["Create A Note"],
+                "description": "Create a Note....",
+                "parameters": [
+                    {
+                        "name": "Create Note",
+                        "in": "body",
+                        "description": "Enter Title and description  ",
+                        "schema": {
+                            "$ref": "#/definitions/createNote"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Note created successfully"
+                    },
+                    "500": {
+                        "description": "Details not entered properly"
+                    }
+                }
+            }
+        },
+        "/notes/_id": {
+            "get": {
+                "tags": ["Get A Particular note"],
+                "description": "Get Note....",
+                "parameters": [
+                    {
+                        "name": "Get Note",
+                        "in": "body",
+                        "description": ""
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Note Fetched successfully"
+                    },
+                    "500": {
+                        "description": "Note not found"
+                    }
+                }
+            }
+        },
+        "/notes/__id": {
+            "delete": {
+                "tags": ["Delete A Note"],
+                "description": "Deleting Note....",
+                "parameters": [
+                    {
+                        "name": "Delete Note",
+                        "in": "body",
+                        "description": ""
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Note deleted successfully"
+                    },
+                    "500": {
+                        "description": "Note not found"
+                    }
+                }
+            }
+        }, "/notes/:_id": {
+            "put": {
+                "tags": ["Update Notes"],
+                "description": "Update Note....",
+                "parameters": [
+                    {
+                        "name": "Updated Note",
+                        "in": "body",
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/createNote"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Note updated successfully"
+                    },
+                    "500": {
+                        "description": "Note not found"
+                    }
+                }
+            }
+        },
+        "/notes/:_id/Archieve": {
+            "put": {
+                "tags": ["Archieve"],
+                "description": "Add into Archieve....",
+                "parameters": [
+                    {
+                        "name": "Add to Archieve",
+                        "in": "body",
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/createNote"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Note updated successfully"
+                    },
+                    "500": {
+                        "description": "Note not found"
+                    }
+                }
+            }
+        },
+        "/notes/:_id/Trash": {
+            "put": {
+                "tags": ["Trash"],
+                "description": "Add to Trash",
+                "parameters": [
+                    {
+                        "name": "Updated Note",
+                        "in": "body",
+                        "description": "",
+                        "schema": {
+                            "$ref": "#/definitions/createNote"
+                        }
+                    }
+                ],
+                "produces": [
+                    "application/json"
+                ],
+                "responses": {
+                    "201": {
+                        "description": "Note updated successfully"
+                    },
+                    "500": {
+                        "description": "Note not found"
+                    }
+                }
+            }
+        }
+
+    },
+    "definitions": {
+        "User": {
+            "type": "object",
+            "properties": {
+                "fname": {
+                    "type": "string"
+                },
+                "lname": {
+                    "type": "string"
+                },
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                },
+                "confirmpassword": {
+                    "type": "string"
+                }
+            }
+        },
+        "loging": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                },
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "forgetpassword": {
+            "type": "object",
+            "properties": {
+                "email": {
+                    "type": "string"
+                }
+            }
+        },
+        "resetpassword": {
+            "type": "object",
+            "properties": {
+                "password": {
+                    "type": "string"
+                }
+            }
+        },
+        "createNote": {
+            "type": "object",
+            "properties": {
+                "Title": {
+                    "type": "string"
+                },
+                "Description": {
+                    "type": "string"
+                },
+                "Trash":
+                {
+                    "type": "boolean",
+                    "default":"false"
+                },
+                "Archieve":
+                {
+                    "type": "boolean",
+                    "default":"false"
+                   
+                }
+            }
+        }
+    },
+    "securityDefinitions": {
+        "JWT": {
+            "type": "apiKey",
+            "name": "Authorization",
+            "in": "header"
+        }
+    },
+    "security": [
+        {
+            "JWT": [""]
+        }
+    ]
+}

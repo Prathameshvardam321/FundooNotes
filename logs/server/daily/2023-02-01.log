@@ -1,0 +1,403 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:50:56.459Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:50:56.489Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2023-01-31T18:51:02.792Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:13:28)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:3:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at param (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:365:14)
+    at param (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:376:14)
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:421:3)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T18:51:45.207Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T18:54:50.730Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T18:54:50.760Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 88
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:204:9)
+    at invokeCallback (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:231:16)
+    at done (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T18:56:32.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:05:23.504Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:05:23.539Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'Archieve')
+    at _callee7$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/note.service.js:51:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:11:32.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:12:46.113Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:12:46.146Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:12:58.608Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:12:58.639Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'Archieve')
+    at _callee7$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/note.service.js:51:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d9275b8d8fe7561c2ff4a9/Archieve 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:13:06.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:17:38.653Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:17:38.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:17:56.394Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:17:56.425Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:19:04.482Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:19:04.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:19:22.394Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:19:22.427Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:19:53.719Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:19:53.754Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/notes/63d966b5b69e0288606e4881/Archieve 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-01-31T19:19:55.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:20:14.905Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:20:14.935Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:22:38.364Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:22:38.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:24:08.696Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:24:08.730Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:24:17.416Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:24:17.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-01-31T19:36:16.466Z"}
+info: Connected to the database. {"timestamp":"2023-01-31T19:36:16.500Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:18:21.380Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:18:21.426Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2023-02-01T05:19:50.604Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T05:33:36.203Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T05:33:36.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T07:20:41.750Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T07:20:41.799Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'Email')
+    at _callee2$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/note.service.js:12:57)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12)
+    at Object.getAllNotes (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/note.service.js:11:25)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/note.controller.js:7:40)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at getAllNotes (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\controllers\/note.controller.js:5:25)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:18:5)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T07:20:46.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T07:24:08.754Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T07:24:08.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T07:24:35.788Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T07:24:35.825Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T14:47:57.559Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T14:47:57.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T14:51:21.687Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T14:51:21.713Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T14:51:39.431Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T14:51:39.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T14:52:14.100Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T14:52:14.128Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T14:52:17.650Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T14:52:17.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T15:56:14.831Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T15:56:14.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T15:59:18.894Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T15:59:18.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:00:02.166Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:00:02.203Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:00:17.879Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:00:17.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:01:25.163Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:01:25.188Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:02:17.342Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:02:17.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:03:00.456Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:03:00.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:04:39.253Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:04:39.283Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:04:43.650Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:04:43.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:06:31.171Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:06:31.202Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:06:36.147Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:06:36.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:07:20.504Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:07:20.533Z"}
+info: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IlJvbmFsZG8xMjNAZ21haWwuY29tIiwiaWF0IjoxNjc1MjY3ODU5fQ.kWRY07jIjNApiaeqRUrIm1SFluOZooteKyTYca5l8hE {"timestamp":"2023-02-01T16:10:59.069Z"}
+info: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IkxtZXNzaTEyQGdtYWlsLmNvbSIsImlhdCI6MTY3NTI2ODEyOH0.8sAdkrKwxiz6-zZBcNx5Sw5Jy7qwYSkqeDs19RI9l0g {"timestamp":"2023-02-01T16:15:28.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:48:02.048Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:48:02.078Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:52:38.043Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:52:38.071Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:53:16.563Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:53:16.591Z"}
+info: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IkxtZXNzaTEyQGdtYWlsLmNvbSIsImlhdCI6MTY3NTI3MDQ1OX0.cJoGfEQzgpizf-JbQhiG446JBHl9I_BrtItXT9zON2Y {"timestamp":"2023-02-01T16:54:19.368Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:58:19.562Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:58:19.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T16:59:09.501Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T16:59:09.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:00:07.385Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:00:07.413Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-01T17:00:08.092Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2023-02-01T17:00:15.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:00:34.448Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:00:34.470Z"}
+info: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IkxtZXNzaTEyQGdtYWlsLmNvbSIsImlhdCI6MTY3NTI3MDgzNX0.4CxEEXH9zegXiHXfUxIGmsopX5oFJpT0hUNW8s4uAm8 {"timestamp":"2023-02-01T17:00:35.794Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:02:21.088Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:02:21.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:03:29.660Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:03:29.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:03:49.318Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:03:49.351Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '_id')
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:18:29)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-01T17:03:56.867Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:05:18.898Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:05:18.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:06:18.391Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:06:18.424Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid token
+    at Object.verify (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\jsonwebtoken\verify.js:75:17)
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:16:22)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:19:12
+    at userAuth (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:6:22)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at jsonParser (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10)
+    at urlencodedParser (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\express\lib\router\index.js:280:10) 
+    url - /api/v1/notes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-02-01T17:16:30.295Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:20:09.524Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:20:09.553Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of undefined (setting 'UserId')
+    at _callee$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\middlewares\/auth.middleware.js:19:16)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2023-02-01T17:20:25.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:20:54.996Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:20:55.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:24:36.290Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:24:36.327Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:28:35.370Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:28:35.402Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:29:05.438Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:29:05.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:29:17.125Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:29:17.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:29:40.073Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:29:40.101Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:30:29.489Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:30:29.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:30:53.340Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:30:53.369Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:31:00.391Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:31:00.418Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:33:06.306Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:33:06.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:34:01.958Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:34:01.989Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:35:44.433Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:35:44.461Z"}
+info: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJFbWFpbCI6IlJvbmFsZG8xMjNAZ21haWwuY29tIiwiaWF0IjoxNjc1MjczMjI0fQ.7EdQNLr8ydxtmx72PLVrKXErfCBqnoCYbumXvbhrSUI {"timestamp":"2023-02-01T17:40:24.144Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'Archieve')
+    at _callee7$ (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\src\services\/note.service.js:51:13)
+    at tryCatch (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:44:17)
+    at Generator.<anonymous> (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:125:22)
+    at Generator.next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:69:21)
+    at asyncGeneratorStep (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\prath\OneDrive\Desktop\Projectss\awesome-project\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/63d966b5b69e0288606e4881/Archieve 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-02-01T17:43:11.561Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-02-01T17:45:34.537Z"}
+info: Connected to the database. {"timestamp":"2023-02-01T17:45:34.566Z"}
