@@ -5,7 +5,7 @@ import logger, { logStream } from '../config/logger';
 
 export const getAllNotes = async (req, res, next) => {
     try {
-       
+       console.log(req.params,"-------------------req.params");
         const data = await NoteService.getAllNotes(req.body);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
@@ -19,7 +19,7 @@ export const getAllNotes = async (req, res, next) => {
 
 export const getNote = async (req, res, next) => {
     try {
-        const data = await NoteService.getNote(req.params._id);
+        const data = await NoteService.getNote(req.params._id,req);
         res.status(HttpStatus.OK).json({
             code: HttpStatus.OK,
             data: data,
@@ -33,7 +33,7 @@ export const getNote = async (req, res, next) => {
 
 export const createNote = async (req, res, next) => {
     try {
-        console.log("Body___----",req.body);
+        
         const data = await NoteService.createNote(req.body)
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
@@ -88,7 +88,7 @@ export const noteTrash = async (req, res, next) => {
 export const noteArchieve = async (req, res, next) => {
     try {
         const data = await NoteService.noteArchieve(req)
-        // console.log("<--------------------------->",req.params.UserId);
+        console.log("<--------------------------->",req.params);
         res.status(HttpStatus.CREATED).json({
             code: HttpStatus.CREATED,
             data: data,

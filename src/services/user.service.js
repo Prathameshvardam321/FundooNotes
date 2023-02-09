@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken'
 import logger, { logStream } from '../config/logger';
 import { checkEmail } from '../utils/user.util';
 import { sendEmail } from '../utils/email';
-import e from 'express';
+
 //get all users
 export const getAllUsers = async () => {
   const data = await User.find();
@@ -16,8 +16,7 @@ export const register = async (body) => {
   try {
     const { FirstName, LastName, Email, Password } = body
     const data = await User.findOne({ Email })
-    // const token = await jwt.sign({Email},process.env.SECRET_KEY)
-    //   logger.info(token)
+  
     return checkEmail(body, data)
   } catch (error) {
     logger.error(error);
@@ -27,7 +26,7 @@ export const register = async (body) => {
 export const login = async (body) => {
   const { Email, Password } = body
   const data = await User.findOne({ Email })
-  console.log("Data---------->>>", data);
+ 
   const result = await bcrypt.compare(Password, data.Password)
 
   if (data) {
